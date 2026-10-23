@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ta">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#123f73"><meta name="description" content="Yaseenis — இஸ்லாமியக் கட்டுரைகள், நூல்கள், குர்ஆன், ஹதீஸ், ஆடியோ மற்றும் வீடியோ ஒரே இடத்தில்.">
+<link rel="manifest" href="./manifest.json"><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/style.css">
+<title>Yaseenis — All-in-One</title>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">ي</span><span><strong>Yaseenis</strong><small>ALL-IN-ONE ISLAMIC LIBRARY</small></span></a><button id="installBtn" class="install-btn" hidden>Install App</button></header>
+<main>
+<section class="hero"><div class="eyebrow">அறிவின் பயணம் இங்கே தொடங்குகிறது</div><h1>அனைத்து இஸ்லாமிய<br><em>உள்ளடக்கங்களும் ஒரே இடத்தில்.</em></h1><p>கட்டுரைகள், PDF நூல்கள், குர்ஆன், ஹதீஸ், ஆடியோ மற்றும் வீடியோக்களை எளிதாக அணுகுங்கள்.</p><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="கட்டுரை, நூல் அல்லது தலைப்பைத் தேடுங்கள்…" aria-label="உள்ளடக்கத்தைத் தேடுங்கள்"><kbd>⌘ K</kbd></label></section>
+<section class="section"><div class="section-heading"><div><span class="eyebrow">EXPLORE LIBRARY</span><h2>எதைத் தேடுகிறீர்கள்?</h2></div><span class="live-pill"><i></i> உங்கள் நூலகம்</span></div>
+<div class="tiles" id="tiles">
+<a class="tile tile-featured" data-search="கட்டுரைகள் articles islamic tamil" href="https://yaseenis.com/"><span class="tile-icon">✦</span><span class="tile-title">இஸ்லாமியக் கட்டுரைகள்</span><span class="tile-desc">தமிழ் கட்டுரைகள் மற்றும் விளக்கங்கள்</span><span class="tile-arrow">↗</span></a>
+<a class="tile" data-search="pdf நூல்கள் books arabic urdu tamil" href="https://yaseenis.com/files-hub/"><span class="tile-icon">▤</span><span class="tile-title">PDF நூலகம்</span><span class="tile-desc">அரபி · உருது · தமிழ்</span><span class="tile-arrow">↗</span></a>
+<a class="tile" data-search="குர்ஆன் quran வசனங்கள்" href="https://yaseenis.com/"><span class="tile-icon">۞</span><span class="tile-title">அல்குர்ஆன்</span><span class="tile-desc">வசனங்கள் மற்றும் தொடர்புடைய பதிவுகள்</span><span class="tile-arrow">↗</span></a>
+<a class="tile" data-search="ஹதீஸ் hadith அரபி தமிழ் english" href="https://yaseenis.com/"><span class="tile-icon">❝</span><span class="tile-title">ஹதீஸ்</span><span class="tile-desc">மொழிகள் மற்றும் ஆதாரங்களுடன்</span><span class="tile-arrow">↗</span></a>
+<a class="tile" data-search="ஆடியோ audio பயான் lectures" href="https://yaseenis.com/"><span class="tile-icon">♫</span><span class="tile-title">ஆடியோ நூலகம்</span><span class="tile-desc">பயான்கள் மற்றும் ஒலிப்பதிவுகள்</span><span class="tile-arrow">↗</span></a>
+<a class="tile" data-search="வீடியோ video media" href="https://yaseenis.com/"><span class="tile-icon">▷</span><span class="tile-title">வீடியோ நூலகம்</span><span class="tile-desc">வீடியோ மற்றும் ஊடக உள்ளடக்கம்</span><span class="tile-arrow">↗</span></a>
+<a class="tile" data-search="ஸலவாத் salawat daily counter" href="https://yaseenis.com/"><span class="tile-icon">☼</span><span class="tile-title">தினசரி ஸலவாத்</span><span class="tile-desc">தினசரி வாசிப்பு மற்றும் எண்ணிக்கை</span><span class="tile-arrow">↗</span></a>
+<a class="tile" data-search="பிடித்தவை bookmarks saved" href="#saved" id="savedTile"><span class="tile-icon">☆</span><span class="tile-title">எனது பிடித்தவை</span><span class="tile-desc">இந்த சாதனத்தில் சேமித்த இணைப்புகள்</span><span class="tile-arrow">→</span></a>
+</div><p id="noResults" class="no-results" hidden>பொருத்தமான பகுதி கிடைக்கவில்லை. வேறு வார்த்தையைத் தேடுங்கள்.</p></section>
+<section class="saved-section" id="saved"><div><span class="eyebrow">QUICK ACCESS</span><h2>விரைவான அணுகல்</h2><p>அடிக்கடி பயன்படுத்தும் பகுதியை ☆ பொத்தானால் சேமிக்கலாம்.</p></div><div id="savedList" class="saved-list"><p class="muted">இன்னும் பிடித்தவை எதுவும் சேமிக்கப்படவில்லை.</p></div></section>
+<section class="note"><span>ⓘ</span><p>இது Yaseenis All-in-One செயலியின் ஆரம்ப வடிவம். தற்போதைய இணையதளங்களுக்கான இணைப்புகள் சேர்க்கப்பட்டுள்ளன. எல்லா உள்ளடக்கங்களையும் ஒரே தேடலில் காட்ட, ஒவ்வொரு தளத்தின் தரவையும் அடுத்த கட்டத்தில் இணைக்க வேண்டும்.</p></section>
+</main><footer><span>© <span id="year"></span> Yaseenis</span><span>அறிவைப் பகிர்வோம் · நன்மையை வளர்ப்போம்</span></footer>
+<nav class="bottom-nav" aria-label="முதன்மை வழிசெலுத்தல்"><a class="active" href="./"><span>⌂</span>முகப்பு</a><a href="#tiles"><span>▦</span>நூலகம்</a><a href="#searchInput" id="navSearch"><span>⌕</span>தேடல்</a><a href="#saved"><span>☆</span>பிடித்தவை</a></nav>
+<script src="./assets/app.js"></script>
+</body></html>
